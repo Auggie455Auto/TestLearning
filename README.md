@@ -1,2 +1,2 @@
 # TestLearning
-website test for university
+Website for university
