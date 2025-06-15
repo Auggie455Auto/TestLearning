@@ -10,7 +10,6 @@ header {
   color: #fff;
   padding: 20px 0;
   text-align: center;
-  font-family: 'Proxima Nova', Arial, sans-serif;
 }
 
 header nav a {
@@ -18,7 +17,6 @@ header nav a {
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
-  font-family: 'Proxima Nova', Arial, sans-serif;
 }
 
 header nav a:hover {
@@ -28,7 +26,6 @@ header nav a:hover {
 main {
   padding: 40px 20px;
   text-align: center;
-  font-family: 'Proxima Nova', Arial, sans-serif;
 }
 
 .cta-btn {
@@ -44,22 +41,21 @@ main {
   font-weight: bold;
   text-decoration: none;
   transition: background 0.2s;
-  font-family: 'Proxima Nova', Arial, sans-serif;
 }
 
+/* Optionally, add a real hover effect */
 .cta-btn:hover {
-  background: #ffc907;
+  background: #e6b800;
 }
 
 footer {
-  background: #eee;
-  color: #555;
+  background: #fff;
+  color: #1a1a1a;
   text-align: center;
   padding: 16px 0;
   position: fixed;
   width: 100%;
   bottom: 0;
-  font-family: 'Proxima Nova', Arial, sans-serif;
 }
 
 /* Maintain original aspect ratio for images */
