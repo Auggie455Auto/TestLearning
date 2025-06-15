@@ -1,76 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>charity: water - Donate for Clean Water</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #f1fdfb;
-      color: #333;
-    }
-    .header {
-      background-color: white;
-      padding: 10px 20px;
-      display: flex;
-      align-items: center;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    }
-    .header img {
-      height: 40px;
-    }
-    .hero {
-      text-align: center;
-      padding: 80px 20px;
-      background: #e0f7f1;
-    }
-    .hero h1 {
-      font-size: 2.8rem;
-      margin-bottom: 20px;
-      color: #007c6c;
-    }
-    .hero p {
-      font-size: 1.2rem;
-      max-width: 600px;
-      margin: 0 auto 30px;
-    }
-    .donate-btn {
-      background-color: #ffbf00;
-      border: none;
-      padding: 15px 30px;
-      font-size: 1rem;
-      font-weight: bold;
-      color: #000;
-      border-radius: 5px;
-      cursor: pointer;
-      text-decoration: none;
-    }
-    .donate-btn:hover {
-      background-color: #e6aa00;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #f8f8f8;
-      font-size: 0.9rem;
-      color: #777;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>charity: water</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="header">
-    <img src="/mnt/data/charitywater_logo_horizontal_AllBlack.png" alt="charity: water logo">
+  <header style="padding: 0; background: #fff; height: 75px; display: flex; align-items: center;">
+    <img src="Images/charitywater_logo_horizontal_AllBlack.png" alt="charity: water logo" style="height: 150px; width: auto; display: block; margin-left: 40px;">
   </header>
-  <section class="hero">
-    <h1>Bring Clean Water to Those in Need</h1>
-    <p>Join us in building wells and changing lives. Every dollar helps bring clean, safe drinking water to communities around the world.</p>
-    <a href="#" class="donate-btn">Donate Now</a>
-  </section>
+  <main>
+    <div style="display: flex; align-items: center; justify-content: flex-start; min-height: 60vh;">
+      <section style="flex: 1; text-align: left; max-width: 500px;">
+        <h2>Creating a better world, drip by drip.</h2>
+        <p>our donation empowers real people solving the water crisis. Fuel local activism, fund sustainable solutions, and create lasting change in the world’s most vulnerable communities.
+.</p>
+        <a href="#" class="cta-btn">Get Started</a>
+      </section>
+      <div style="flex: 1; display: flex; justify-content: center;">
+        <img src="Images/JS_20170303_0743.jpg" alt="Header Image" style="max-width: 90%; max-height: 400px; border-radius: 12px;">
+      </div>
+    </div>
+  </main>
   <footer>
-    &copy; 2025 charity: water. All rights reserved.
+    &copy; charity: water. All rights reserved.
   </footer>
 </body>
 </html>
